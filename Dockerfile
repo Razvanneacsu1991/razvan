@@ -1,6 +1,6 @@
 FROM tomcat
 MAINTAINER ashutoshh@linux.com
-WORKDIR D:\Docker
+WORKDIR /usr/local/tomcat/webapps
 RUN mkdir hello
 WORKDIR hello
 COPY java . 
